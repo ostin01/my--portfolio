@@ -1,0 +1,67 @@
+.projects__container {
+    max-width: 90%;
+    margin: auto;
+    margin: 40px;
+    overflow: hidden;
+}
+
+.projects__container>h1 {
+    text-align: center;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.sneakylegs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.project__details h2 {
+    margin-top: 50px;
+}
+
+.image {
+    max-width: 800px;
+    margin-top: 40px;
+    box-shadow: 12px 13px 30px rgb(0 0 0 / 9%);
+    border-radius: 20px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: contain;
+}
+
+.project__details p {
+    margin: 20px 0;
+    color: #999;
+    font-size: 15px;
+}
+
+.project__details span {
+    padding: 5px 10px;
+    font-size: 10px;
+    background: #000;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.Appletvplus {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 40px 0;
+    gap: 20px;
+}
+
+@media(max-width:800px) {
+
+    .sneakylegs,
+    .Appletvplus {
+        flex-direction: column-reverse;
+    }
+}

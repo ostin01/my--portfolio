@@ -1,0 +1,43 @@
+.positioning {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navigation__container {
+    width: max-content;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+    border-radius: 20px;
+    z-index: 2;
+    backdrop-filter: blur(16px);
+    animation-name: entry;
+    animation-duration: 3s;
+}
+
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.active {
+    background-color: #f9b006;
+    border-radius: 10px;
+}
+
+.icons svg {
+    color: black;
+}
+
+@keyframes entry {
+    0% {
+        transform: translateY(30vh);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

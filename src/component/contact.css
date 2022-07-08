@@ -1,0 +1,163 @@
+.contactInput__container {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    overflow: hidden;
+}
+
+.contact__container {
+    color: #b9b9b9;
+    padding: 50px;
+    flex: 0.5;
+}
+
+
+.contacts__icons {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.contact__info h1 {
+    margin: 10px 0;
+}
+
+.contact__info p {
+    margin: 10px 0;
+}
+
+.contacts__icons svg {
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    transition: .4s;
+}
+
+.contacts__icons svg:hover {
+    background-color: #F9B006;
+    color: black;
+}
+
+.contact__image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact__image {
+    max-width: 600px;
+}
+
+/* Styling the input section */
+.inputsection__container {
+    padding-top: 48px;
+    display: flex;
+    flex: 0.5;
+}
+
+.inputsection__container h4 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-transform: uppercase;
+    color: #b9b9b9;
+    font-weight: 700;
+    font-size: .8em;
+}
+
+.name,
+.email {
+    padding-bottom: 40px;
+}
+
+.name input {
+    width: 500px;
+}
+
+.email input {
+    width: 500px;
+}
+
+form input,
+textarea {
+    margin-top: 5px;
+    background: hsla(0, 0%, 100%, .15);
+    padding: 15px 20px;
+    border-radius: 14px;
+    color: #b9b9b9;
+    outline: none;
+    border: none;
+}
+
+.submit {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.submit svg {
+    font-size: 14px;
+    transform: rotate(320deg);
+    padding-right: 5px;
+}
+
+button {
+    margin: 20px 0;
+    background: #f9b006;
+    color: #000;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px 25px;
+    transition: .4s;
+    text-transform: uppercase;
+}
+
+button:hover {
+    font-weight: bold;
+}
+
+/* Styling the footer */
+
+.emmanuel {
+    display: flex;
+    align-items: center;
+    background: rgb(34, 34, 34);
+    color: white;
+}
+
+.emmanuel p {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.emmanuel svg {
+    color: white;
+}
+
+@media (max-width:768px) {
+    .contactInput__container {
+        flex-direction: column;
+    }
+
+    .name input {
+        width: 100%;
+    }
+
+    .email input {
+        width: 100%;
+    }
+
+    .inputsection__container {
+        padding-left: 20px;
+    }
+
+    .inputsection__container {
+        padding-top: 0;
+    }
+
+    .contact__container {
+        padding: 20px;
+    }
+}
