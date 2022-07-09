@@ -5,7 +5,7 @@ import Navigation from "./component/Navigation";
 import Projects from "./component/Projects";
 import StickyNav from "./component/StickyNav";
 import AOS from "aos";
-import "aos/dist/aos.css";
+// import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 function App() {
