@@ -2,8 +2,8 @@ import "./projects.css";
 import LanguageIcon from "@mui/icons-material/Language";
 const Projects = () => {
   return (
-    <div className="projects__container" id="projects">
-      <h1>Featured Projects</h1>
+    <div data-aos="fade-up" className="projects__container" id="projects">
+      <h1 data-aos="fade-right">Featured Projects</h1>
       <div className="sneakylegs">
         <div className="project__details">
           <h2>Sneakylegs</h2>
@@ -18,7 +18,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="image">
+        <div data-aos="fade-left" className="image">
           <img src="./images/sneakylegss.PNG" alt="" />
         </div>
       </div>
@@ -39,7 +39,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="image">
+        <div data-aos="fade-right" className="image">
           <img src="./images/applee.PNG" alt="" />
         </div>
       </div>

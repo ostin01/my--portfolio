@@ -2,7 +2,6 @@ import "./navigation.css";
 import HomeIcon from "@mui/icons-material/Home";
 import WorkIcon from "@mui/icons-material/Work";
 import PersonIcon from "@mui/icons-material/Person";
-import BuildIcon from "@mui/icons-material/Build";
 import { useState } from "react";
 const Navigation = () => {
   const [activeNav, setActiveNav] = useState("#home");
@@ -24,13 +23,6 @@ const Navigation = () => {
               href="#projects"
             >
               <WorkIcon />
-            </a>
-            <a
-              href="#technologies"
-              onClick={() => setActiveNav("#technologies")}
-              className={activeNav === "#technologies" ? "active" : ""}
-            >
-              <BuildIcon />
             </a>
             <a
               href="#contact"
