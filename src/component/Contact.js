@@ -7,9 +7,9 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 const Contact = () => {
   return (
     <div className="contactInput__container">
-      <div className="contact__container" id="contact">
+      <div data-aos="fade-right" className="contact__container" id="contact">
         <h1>Get in touch</h1>
-        <div className="contacts__icons">
+        <div data-aos="fade-right" className="contacts__icons">
           <a href="https://github.com/Fitzstiles" target="blank">
             <GitHubIcon />
           </a>
@@ -26,11 +26,11 @@ const Contact = () => {
             <WhatsAppIcon />
           </a>
         </div>
-        <div className="contact__info">
+        <div data-aos="fade-right" className="contact__info">
           <p>+234 08136080403</p>
           <p>austinpaul606@gmail.com</p>
         </div>
-        <div className="contact__image">
+        <div data-aos="fade-right" className="contact__image">
           <img
             src="https://emmanuelajiboye.com/static/media/contact-vector.65d8a6c8.svg"
             alt=""

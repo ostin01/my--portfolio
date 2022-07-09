@@ -4,7 +4,7 @@ import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
 import SendIcon from "@mui/icons-material/Send";
 const InputSection = () => {
   return (
-    <div className="inputsection__container">
+    <div data-aos="fade-left" className="inputsection__container">
       <form method="POST">
         <div className="name">
           <h4>
