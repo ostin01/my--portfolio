@@ -10,7 +10,6 @@ const Projects = () => {
           <p> Sneakylegs is the full Frontend of an E-commerce website </p>
           <span>React</span>
           <span>JavaScript</span>
-          <span>Context api</span>
           <div className="project__link">
             <a href="https://sneakylegss.vercel.app/" target="blank">
               view live project
@@ -29,8 +28,7 @@ const Projects = () => {
             It is an impeccable clone of the popular appleTV plus streaming app
           </p>
           <span>React</span>
-          <span>JavasSript</span>
-          <span>Context api</span>
+          <span>JavaSript</span>
           <span>TMDB api</span>
           <div className="project__link">
             <a href="https://appletvplus-clone.vercel.app/" target="blank">
