@@ -16,7 +16,7 @@ const StickyNav = () => {
         <a href="https://twitter.com/os_tinn" target="blank">
           <TwitterIcon />
         </a>
-        <a href="https://www.instagram.com/iam_osten/" target="blank">
+        <a href="https://www.instagram.com/o_ste_n/" target="blank">
           <InstagramIcon />
         </a>
         <a

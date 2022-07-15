@@ -28,7 +28,7 @@ const Projects = () => {
             It is an impeccable clone of the popular appleTV plus streaming app
           </p>
           <span>React</span>
-          <span>JavaSript</span>
+          <span>JavaScript</span>
           <span>TMDB api</span>
           <div className="project__link">
             <a href="https://appletvplus-clone.vercel.app/" target="blank">
@@ -39,6 +39,26 @@ const Projects = () => {
         </div>
         <div data-aos="fade-right" className="image">
           <img src="./images/applee.PNG" alt="" />
+        </div>
+      </div>
+      <div className="redstore">
+        <div className="project__details">
+          <h2>Red Store</h2>
+          <p>
+            This is a Landing page to an Ecommerce website built with HTML&CSS
+          </p>
+          <span>HTML</span>
+          <span>CSS</span>
+
+          <div className="project__link">
+            <a href="https://redstored.netlify.app/" target="blank">
+              view live project
+              <LanguageIcon />
+            </a>
+          </div>
+        </div>
+        <div data-aos="fade-left" className="image">
+          <img src="./images/redstore.PNG" alt="" />
         </div>
       </div>
     </div>

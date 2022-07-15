@@ -11,7 +11,8 @@
     width: 100%;
 }
 
-.sneakylegs {
+.sneakylegs,
+.redstore {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
@@ -64,6 +65,7 @@
 @media(max-width:800px) {
 
     .sneakylegs,
+    .redstore,
     .Appletvplus {
         flex-direction: column-reverse;
     }
