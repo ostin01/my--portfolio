@@ -1,5 +1,5 @@
 import "./hero.css";
-import DownloadIcon from "@mui/icons-material/Download";
+// import DownloadIcon from "@mui/icons-material/Download";
 
 const Hero = () => {
   return (
@@ -20,9 +20,9 @@ const Hero = () => {
             Fast and highly responsive design that works on every device screen
             is my top most priority.
           </p>
-          <a className="download__button" href="./images/01Austin.pdf" download>
+          {/* <a className="download__button" href="./images/01Austin.pdf" download>
             Download Resume <DownloadIcon />
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
