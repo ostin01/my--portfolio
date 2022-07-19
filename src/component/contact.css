@@ -130,6 +130,7 @@ button:hover {
 
 .emmanuel p {
     padding: 20px;
+    font-size: 12px;
 }
 
 .emmanuel svg {
@@ -142,11 +143,15 @@ button:hover {
     }
 
     .name input {
-        width: 100%;
+        width: 150%;
     }
 
     .email input {
-        width: 100%;
+        width: 150%;
+    }
+
+    textarea {
+        width: 150%;
     }
 
     .inputsection__container {
