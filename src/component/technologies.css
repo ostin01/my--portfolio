@@ -1,0 +1,47 @@
+.technologies__container {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://c1.wallpaperflare.com/preview/427/745/192/notebook-natural-laptop-macbook.jpg') center/cover no-repeat fixed;
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.technologies__container h1 {
+    color: white;
+    padding-left: 20px;
+    font-weight: 200;
+}
+
+.tech__icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 200px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.first__row,
+.second__row {
+    display: flex;
+    flex-direction: column;
+}
+
+.tech__icons {
+    padding: 20px 0;
+}
+
+.tech__icons svg {
+    font-size: 35px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 40px 0;
+    padding: 5px;
+    background-color: black;
+    color: #f9b006;
+}
+
+@media (max-width:800px) {
+    .technologies__container h1 {
+        padding: 0;
+        text-align: center;
+    }
+}

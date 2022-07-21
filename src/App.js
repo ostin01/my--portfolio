@@ -7,6 +7,7 @@ import StickyNav from "./component/StickyNav";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Technologies from "./component/Technologies";
 
 function App() {
   useEffect(() => {
@@ -18,6 +19,7 @@ function App() {
       <StickyNav />
       <Hero />
       <Projects />
+      <Technologies />
       <Contact />
       <Navigation />
       <Footer />
