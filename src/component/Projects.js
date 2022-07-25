@@ -10,6 +10,7 @@ const Projects = () => {
           <p> Sneakylegs is the full Frontend of an E-commerce website </p>
           <span>React</span>
           <span>JavaScript</span>
+          <span>React Context</span>
           <div className="project__link">
             <a href="https://sneakylegss.vercel.app/" target="blank">
               view live project

@@ -4,6 +4,8 @@ import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
 import SendIcon from "@mui/icons-material/Send";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
+
+import "./contact.css";
 const InputSection = () => {
   const form = useRef();
   const sendEmail = (e) => {

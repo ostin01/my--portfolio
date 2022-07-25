@@ -1,13 +1,18 @@
+.background {
+    background-color: black;
+    padding-top: 50px;
+}
+
 .contactInput__container {
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    max-width: 90%;
+    margin: auto;
     overflow: hidden;
 }
 
 .contact__container {
     color: #b9b9b9;
-    padding: 50px;
     flex: 0.5;
 }
 
@@ -63,7 +68,7 @@
     text-transform: uppercase;
     color: #b9b9b9;
     font-weight: 700;
-    font-size: .8em;
+    font-size: 12px;
 }
 
 .name,
@@ -145,17 +150,5 @@ button:hover {
 
     .email input {
         width: 100%;
-    }
-
-    .inputsection__container {
-        padding-left: 20px;
-    }
-
-    .inputsection__container {
-        padding-top: 0;
-    }
-
-    .contact__container {
-        padding: 20px;
     }
 }
