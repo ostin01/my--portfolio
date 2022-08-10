@@ -45,9 +45,7 @@ const Projects = () => {
       <div className="redstore">
         <div className="project__details">
           <h2>Red Store</h2>
-          <p>
-            This is a Landing page to an Ecommerce website built with HTML&CSS
-          </p>
+          <p>This is the Landing page to an Ecommerce website.</p>
           <span>HTML</span>
           <span>CSS</span>
 
@@ -60,6 +58,23 @@ const Projects = () => {
         </div>
         <div data-aos="fade-left" className="image">
           <img src="./images/redstore.PNG" alt="" />
+        </div>
+      </div>
+      <div className="Appletvplus">
+        <div className="project__details">
+          <h2>Coffee Shop</h2>
+          <p>This is the Landing page to a coffee shop.</p>
+          <span>HTML</span>
+          <span>CSS</span>
+          <div className="project__link">
+            <a href="https://coffee-rouge.vercel.app/" target="blank">
+              view live project
+              <LanguageIcon />
+            </a>
+          </div>
+        </div>
+        <div data-aos="fade-right" className="image">
+          <img src="./images/coffee.PNG" alt="" />
         </div>
       </div>
     </div>
