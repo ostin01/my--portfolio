@@ -67,7 +67,7 @@ const Projects = () => {
           <span>HTML</span>
           <span>CSS</span>
           <div className="project__link">
-            <a href="https://coffee-rouge.vercel.app/" target="blank">
+            <a href="https://coffeeshopp.vercel.app/" target="blank">
               view live project
               <LanguageIcon />
             </a>
