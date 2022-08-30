@@ -42,7 +42,7 @@ const Projects = () => {
             <h6>React Context </h6>
             <h6>Firebase auth</h6>
           </div>
-          <small>on going project</small>
+          <small>Ongoing project</small>
           <div className="project__link">
             <a href="https://aep.vercel.app/" target="blank">
               view live project
