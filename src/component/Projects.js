@@ -7,7 +7,10 @@ const Projects = () => {
       <div className="sneakylegs">
         <div className="project__details">
           <h2>Sneakylegs</h2>
-          <p> Sneakylegs is the full Frontend of an E-commerce website </p>
+          <p>
+            Sneakylegs is the full Frontend of an E-commerce website you can
+            like a product, add and remove items from cart
+          </p>
           <span>React</span>
           <span>JavaScript</span>
           <span>React Context</span>
@@ -24,6 +27,35 @@ const Projects = () => {
       </div>
       <div className="Appletvplus">
         <div className="project__details">
+          <h2>Austin's Event Palace</h2>
+          <p>
+            It's the landing page and chat app for an event management company
+            where you tell them what event you are planning and they'll organise
+            it for you from choosing the location to ensuring a stress free
+            successful event for you.
+          </p>
+
+          <div className="stackss">
+            <h6>React</h6>
+            <h6>JavaScript</h6>
+            <h6>Framer Motion</h6>
+            <h6>React Context </h6>
+            <h6>Firebase auth</h6>
+          </div>
+          <small>on going project</small>
+          <div className="project__link">
+            <a href="https://aep.vercel.app/" target="blank">
+              view live project
+              <LanguageIcon />
+            </a>
+          </div>
+        </div>
+        <div data-aos="fade-right" className="image">
+          <img src="./images/aep.PNG" alt="" />
+        </div>
+      </div>
+      <div className="sneakylegs">
+        <div className="project__details">
           <h2>AppleTV+ clone</h2>
           <p>
             It is an impeccable clone of the popular appleTV plus streaming app
@@ -38,7 +70,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div data-aos="fade-right" className="image">
+        <div data-aos="fade-left" className="image">
           <img src="./images/applee.PNG" alt="" />
         </div>
       </div>
@@ -56,11 +88,11 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div data-aos="fade-left" className="image">
+        <div data-aos="fade-right" className="image">
           <img src="./images/redstore.PNG" alt="" />
         </div>
       </div>
-      <div className="Appletvplus">
+      <div className="sneakylegs">
         <div className="project__details">
           <h2>Coffee Shop</h2>
           <p>This is the Landing page to a coffee shop.</p>
@@ -73,7 +105,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div data-aos="fade-right" className="image">
+        <div data-aos="fade-left" className="image">
           <img src="./images/coffee.PNG" alt="" />
         </div>
       </div>

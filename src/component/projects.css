@@ -11,8 +11,7 @@
     width: 100%;
 }
 
-.sneakylegs,
-.redstore {
+.sneakylegs {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
@@ -45,6 +44,7 @@
     margin: 20px 0;
     color: #999;
     font-size: 15px;
+    max-width: 300px;
 }
 
 .project__details span {
@@ -56,7 +56,31 @@
     margin-right: 10px;
 }
 
-.Appletvplus {
+.project__details small {
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.stackss {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.stackss h6 {
+    padding: 5px 10px;
+    font-size: 10px;
+    background: #000;
+    max-width: 100%;
+    color: #fff;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.Appletvplus,
+.redstore {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
