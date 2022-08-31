@@ -7,10 +7,7 @@ const Projects = () => {
       <div className="sneakylegs">
         <div className="project__details">
           <h2>Sneakylegs</h2>
-          <p>
-            Sneakylegs is the full Frontend of an E-commerce website you can
-            like a product, add and remove items from cart
-          </p>
+          <p>Sneakylegs is an E-commerce website</p>
           <span>React</span>
           <span>JavaScript</span>
           <span>React Context</span>
@@ -28,12 +25,7 @@ const Projects = () => {
       <div className="Appletvplus">
         <div className="project__details">
           <h2>Austin's Event Palace</h2>
-          <p>
-            It's the landing page and chat app for an event management company
-            where you tell them what event you are planning and they'll organise
-            it for you from choosing the location to ensuring a stress free
-            successful event for you.
-          </p>
+          <p>A fullstack web application built with React js and Firebase</p>
 
           <div className="stackss">
             <h6>React</h6>
@@ -57,9 +49,7 @@ const Projects = () => {
       <div className="sneakylegs">
         <div className="project__details">
           <h2>AppleTV+ clone</h2>
-          <p>
-            It is an impeccable clone of the popular appleTV plus streaming app
-          </p>
+          <p>It is a clone of the popular appleTV plus streaming app</p>
           <span>React</span>
           <span>JavaScript</span>
           <span>TMDB api</span>
