@@ -32,10 +32,7 @@ const Contact = () => {
             <p>austinpaul606@gmail.com</p>
           </div>
           <div data-aos="fade-right" className="contact__image">
-            <img
-              src="https://emmanuelajiboye.com/static/media/contact-vector.65d8a6c8.svg"
-              alt=""
-            />
+            <img src="./images/contact.svg" alt="" />
           </div>
         </div>
         <InputSection />
