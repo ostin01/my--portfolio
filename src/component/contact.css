@@ -139,7 +139,7 @@ button:hover {
 }
 
 
-@media (max-width:768px) {
+@media (max-width:866px) {
     .contactInput__container {
         flex-direction: column;
     }

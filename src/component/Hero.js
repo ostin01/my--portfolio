@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="hero__container" id="home">
       <div className="hero__info">
-        <div data-aos="fade-left" className="hero__image">
+        <div data-aos="fade-right" className="hero__image">
           <img src="./images/hero.svg" alt="" />
         </div>
         <div className="about__hero">
