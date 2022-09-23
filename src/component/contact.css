@@ -59,6 +59,7 @@
     padding-top: 48px;
     display: flex;
     flex: 0.5;
+    margin-top: -50px;
 }
 
 .inputsection__container h4 {
@@ -77,22 +78,30 @@
 }
 
 .name input {
-    width: 500px;
+    width: 100%;
 }
 
 .email input {
-    width: 500px;
+    width: 100%;
 }
 
 form input,
 textarea {
     margin-top: 5px;
     background: hsla(0, 0%, 100%, .15);
-    padding: 15px 20px;
+    padding: 15px 0;
     border-radius: 14px;
     color: #b9b9b9;
     outline: none;
     border: none;
+}
+
+form {
+    width: 100%;
+}
+
+textarea {
+    width: 70%;
 }
 
 .submit {
@@ -126,11 +135,9 @@ button:hover {
 /* Styling the footer */
 
 .footer {
-    display: flex;
-    align-items: center;
+    text-align: center;
     background: rgb(34, 34, 34);
     color: white;
-    max-width: 100%;
 }
 
 .footer p {
@@ -144,11 +151,11 @@ button:hover {
         flex-direction: column;
     }
 
-    .name input {
+    textarea {
         width: 100%;
     }
 
-    .email input {
+    button {
         width: 100%;
     }
 }
