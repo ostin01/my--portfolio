@@ -1,5 +1,5 @@
 .technologies__container {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://c1.wallpaperflare.com/preview/427/745/192/notebook-natural-laptop-macbook.jpg') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://hd.wallpaperswide.com/thumbs/laptop_internet_music_headphones_camera_desk-t2.jpg') center/cover no-repeat fixed;
     padding: 50px 0;
     overflow: hidden;
 }
@@ -14,27 +14,30 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 200px;
+    max-width: 500px;
     margin: auto;
     padding-bottom: 50px;
 }
 
+.image__container {
+    width: 60px;
+    height: 60px;
+    margin: 20px 0;
+}
+
+.image__container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .first__row,
-.second__row {
+.second__row,
+.third__row {
     display: flex;
     flex-direction: column;
 }
 
 .tech__icons {
-    padding: 20px 0;
-}
-
-.tech__icons svg {
-    font-size: 35px;
-    cursor: pointer;
-    border-radius: 10px;
-    margin: 40px 0;
-    padding: 5px;
-    background-color: black;
-    color: #f9b006;
+    padding: 20px;
 }

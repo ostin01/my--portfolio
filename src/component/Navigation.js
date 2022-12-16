@@ -1,35 +1,46 @@
 import "./navigation.css";
-import HomeIcon from "@mui/icons-material/Home";
 import WorkIcon from "@mui/icons-material/Work";
 import PersonIcon from "@mui/icons-material/Person";
+import LaptopIcon from "@mui/icons-material/Laptop";
+import PhoneIcon from "@mui/icons-material/Phone";
 import { useState } from "react";
+import { useEffect } from "react";
+const useScroll = () => {
+  const [state, setState] = useState({
+    x: 0,
+    y: 0,
+  });
+  const onScroll = () => {
+    setState({ y: window.scrollY });
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+  return state;
+};
+
 const Navigation = () => {
-  const [activeNav, setActiveNav] = useState("#home");
+  const { y } = useScroll();
   return (
     <div className="positioning">
       <div className="navigation__container">
         <div>
           <div className="icons">
-            <a
-              onClick={() => setActiveNav("#home")}
-              className={activeNav === "#home" ? "active" : ""}
-              href="#home"
-            >
-              <HomeIcon />
+            <a className={y <= "600" ? "active" : ""} href="#home">
+              <PersonIcon />
             </a>
-            <a
-              onClick={() => setActiveNav("#project")}
-              className={activeNav === "#project" ? "active" : ""}
-              href="#projects"
-            >
+            <a className={y > 600 && y < 3030 ? "active" : ""} href="#projects">
               <WorkIcon />
             </a>
             <a
-              href="#contact"
-              onClick={() => setActiveNav("#contact")}
-              className={activeNav === "#contact" ? "active" : ""}
+              className={y > 3030 && y < 3654 ? "active" : ""}
+              href="#navigation"
             >
-              <PersonIcon />
+              <LaptopIcon />
+            </a>
+            <a href="#contact" className={y > 3654 ? "active" : ""}>
+              <PhoneIcon />
             </a>
           </div>
         </div>

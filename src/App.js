@@ -8,14 +8,16 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Technologies from "./component/Technologies";
+import { useStateValue } from "./globalStore/StateContext";
 
 function App() {
+  const { theme } = useStateValue();
   useEffect(() => {
     AOS.init();
     AOS.refresh();
   }, []);
   return (
-    <div className="App">
+    <div className="App" id={theme}>
       <StickyNav />
       <Hero />
       <Projects />

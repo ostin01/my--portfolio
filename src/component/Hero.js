@@ -13,9 +13,8 @@ const Hero = () => {
           <h1>Lawal Austin</h1>
           <p>
             I am an enthusiatic Frontend Developer with a keen attention to
-            details and excellent organisation skills.Building and implementing
-            Fast and highly responsive design that works on every device screen
-            is my top most priority.
+            details and excellent organisation skills with hands on experience
+            building web apps using React js and Next Js .
           </p>
           {/* <a
             className="download__button"

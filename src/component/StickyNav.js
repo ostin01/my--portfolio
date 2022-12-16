@@ -1,9 +1,14 @@
 import "./sticky.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import TwitterIcon from "@mui/icons-material/Twitter";
-import InstagramIcon from "@mui/icons-material/Instagram";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import LightModeIcon from "@mui/icons-material/LightMode";
+import DarkModeIcon from "@mui/icons-material/DarkMode";
+import { useStateValue } from "../globalStore/StateContext";
+import { useState } from "react";
 const StickyNav = () => {
+  const { toggleTheme } = useStateValue();
+  const [toggle, setToggle] = useState(false);
   return (
     <div className="navbar__container">
       <a href="/">
@@ -13,12 +18,10 @@ const StickyNav = () => {
         <a href="https://github.com/Fitzstiles" target="blank">
           <GitHubIcon />
         </a>
-        <a href="https://twitter.com/os_tinn" target="blank">
+        <a href="https://twitter.com/theFrontenddGuy" target="blank">
           <TwitterIcon />
         </a>
-        <a href="https://www.instagram.com/o_ste_n/" target="blank">
-          <InstagramIcon />
-        </a>
+
         <a
           href="
           https://api.whatsapp.com/send?phone=2348136080403"
@@ -26,6 +29,11 @@ const StickyNav = () => {
         >
           <WhatsAppIcon />
         </a>
+        <div onClick={() => setToggle(!toggle)} style={{ cursor: "pointer" }}>
+          <div onClick={toggleTheme}>
+            {toggle ? <DarkModeIcon /> : <LightModeIcon />}
+          </div>
+        </div>
       </div>
     </div>
   );

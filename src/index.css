@@ -20,8 +20,42 @@ ul {
   display: none;
 }
 
+#light {
+  transition: .6s;
+}
+
+#dark {
+  background-color: black;
+  transition: .6s;
+  color: gray;
+}
+
+#dark .stackss h6 {
+  background-color: grey;
+}
+
+#dark .about__hero {
+  color: white;
+}
+
+#dark .about__hero p {
+  color: white;
+}
+
+#dark .projects__container {
+  color: white;
+}
+
+#dark .project__details p {
+  color: white;
+}
+
+#dark .project__link a:hover {
+  background-color: gray;
+}
+
 .project__link {
-  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 .project__link a {
