@@ -41,13 +41,12 @@ const Projects = () => {
       <div className="left__items">
         <div className="project__details">
           <h2>Austin's Event Palace</h2>
-          <p>A fullstack web application built with React js and Firebase</p>
+          <p>A Landing page</p>
 
           <div className="stackss">
             <h6>React js</h6>
             <h6>JavaScript</h6>
             <h6>Framer Motion</h6>
-            <small>on going project</small>
           </div>
           <div className="project__link">
             <a href="https://aep.vercel.app/" target="blank">
