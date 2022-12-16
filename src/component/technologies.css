@@ -1,5 +1,5 @@
 .technologies__container {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://hd.wallpaperswide.com/thumbs/laptop_internet_music_headphones_camera_desk-t2.jpg') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../public/images/bg.jpg') center/cover no-repeat fixed;
     padding: 50px 0;
     overflow: hidden;
 }
