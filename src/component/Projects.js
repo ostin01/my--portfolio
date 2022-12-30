@@ -7,14 +7,13 @@ const Projects = () => {
       <div className="right__items">
         <div className="project__details">
           <h2>SNEAKYLEGS</h2>
-          <p>Sneakylegs is an E-commerce website, with Flutterwave payment</p>
+          <p>Sneakylegs is an E-commerce website</p>
 
           <div className="stackss">
             <h6>Next js</h6>
             <h6>JavaScript</h6>
             <h6>Firebase</h6>
             <h6>SSR</h6>
-            <h6>Flutterwave</h6>
           </div>
           <div className="designer">
             <p>Design by twitter: @Priscillia</p>
