@@ -1,6 +1,5 @@
 import "./sticky.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import TwitterIcon from "@mui/icons-material/Twitter";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import LightModeIcon from "@mui/icons-material/LightMode";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
@@ -17,9 +16,6 @@ const StickyNav = () => {
       <div className="logos">
         <a href="https://github.com/Fitzstiles" target="blank">
           <GitHubIcon />
-        </a>
-        <a href="https://twitter.com/theFrontenddGuy" target="blank">
-          <TwitterIcon />
         </a>
 
         <a

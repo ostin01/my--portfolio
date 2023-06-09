@@ -1,6 +1,5 @@
 import "./contact.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import TwitterIcon from "@mui/icons-material/Twitter";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import PersonIcon from "@mui/icons-material/Person";
 import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
@@ -22,9 +21,8 @@ const Contact = () => {
       )
       .then(
         (response) => {
-          console.log(response.text);
-          if (response.OK) {
-            console.log("message sent");
+          if (response.status === 200) {
+            alert("message sent successfully");
           }
         },
         (error) => {
@@ -42,9 +40,7 @@ const Contact = () => {
             <a href="https://github.com/Fitzstiles" target="blank">
               <GitHubIcon />
             </a>
-            <a href="https://twitter.com/theFrontenddGuy" target="blank">
-              <TwitterIcon />
-            </a>
+
             <a
               href="https://api.whatsapp.com/send?phone=2348136080403"
               target="blank"
@@ -67,13 +63,7 @@ const Contact = () => {
                 <PersonIcon />
                 Name
               </h4>
-              <input
-                type="text"
-                name="name"
-                id="name"
-                autoComplete="off"
-                required
-              />
+              <input type="text" name="name" id="name" required />
             </div>
             <div className="email">
               <h4>
