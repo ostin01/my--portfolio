@@ -13,7 +13,6 @@ const Projects = () => {
             <h6>Next js</h6>
             <h6>JavaScript</h6>
             <h6>Firebase</h6>
-            <h6>SSR</h6>
           </div>
           <div className="designer">
             <p>Design by twitter: @Priscillia</p>
