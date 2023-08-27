@@ -1,5 +1,5 @@
 import "./hero.css";
-// import DownloadIcon from "@mui/icons-material/Download";
+import DownloadIcon from "@mui/icons-material/Download";
 
 const Hero = () => {
   return (
@@ -15,13 +15,9 @@ const Hero = () => {
             I am a frontend developer with hands on experience building web apps
             using React js and next js
           </p>
-          {/* <a
-            className="download__button"
-            href="./images/01 Austin.pdf"
-            download
-          >
+          <a className="download__button" href="/" download>
             Download Resume <DownloadIcon />
-          </a> */}
+          </a>
         </div>
       </div>
     </div>
