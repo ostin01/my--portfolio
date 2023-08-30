@@ -95,6 +95,26 @@ const Projects = () => {
       </div>
       <div className="left__items">
         <div className="project__details">
+          <h2>AppleTV+ clone</h2>
+          <p>It's a clone of the apple tv plus page</p>
+          <div className="stackss">
+            <h6>React</h6>
+            <h6>JavaScript</h6>
+            <h6>TMDB API</h6>
+          </div>
+          <div className="project__link">
+            <a href="http://appletvplus-clone.vercel.app/" target="blank">
+              view live project
+              <LanguageIcon />
+            </a>
+          </div>
+        </div>
+        <div data-aos="fade-right" className="image">
+          <img src="./images/applee.PNG" alt="" />
+        </div>
+      </div>
+      <div className="right__items">
+        <div className="project__details">
           <h2>CRAPPO</h2>
           <p>
             CRAPPO Is a crypto currency landing page.Coingecko api is used to
@@ -112,7 +132,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div data-aos="fade-right" className="image">
+        <div data-aos="fade-left" className="image">
           <img src="./images/crypt.PNG" alt="" />
         </div>
       </div>
