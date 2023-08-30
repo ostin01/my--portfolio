@@ -12,8 +12,11 @@ const Hero = () => {
           <h4>Hi! I'm</h4>
           <h1>Lawal Austin</h1>
           <p>
-            I am a frontend developer with hands on experience building web apps
-            using React js and next js
+            {/* I am an enthusiatic Frontend Developer with a keen attention to
+            details and excellent organisation skills with hands on experience
+            building web apps using React js and Next Js . */}
+            I am a frontend developer with hands on experience building web and
+            using React js
           </p>
           {/* <a
             className="download__button"
