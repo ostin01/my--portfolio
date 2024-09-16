@@ -10,13 +10,13 @@ const Hero = () => {
         </div>
         <div className="about__hero">
           <h4>Hi! I'm</h4>
-          <h1>Lawal Austin</h1>
+          <h1>Tiamiyu Korede</h1>
           <p>
-            {/* I am an enthusiatic Frontend Developer with a keen attention to
+            I am an enthusiatic Frontend Developer with a keen attention to
             details and excellent organisation skills with hands on experience
-            building web apps using React js and Next Js . */}
-            I am a frontend developer with hands on experience building web apps
-            using React js and Next Js
+            building web apps using React js and Next Js .
+            {/* I am a frontend developer with hands on experience building web apps
+            using React js and Next Js */}
           </p>
           {/* <a
             className="download__button"

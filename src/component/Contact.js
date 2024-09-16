@@ -1,6 +1,6 @@
 import "./contact.css";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+// import GitHubIcon from "@mui/icons-material/GitHub";
+// import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import PersonIcon from "@mui/icons-material/Person";
 import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
 import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
@@ -36,7 +36,7 @@ const Contact = () => {
       <div className="contactInput__container">
         <div data-aos="fade-right" className="contact__container" id="contact">
           <h1>Get in touch</h1>
-          <div data-aos="fade-right" className="contacts__icons">
+          {/* <div data-aos="fade-right" className="contacts__icons">
             <a href="https://github.com/Fitzstiles" target="blank">
               <GitHubIcon />
             </a>
@@ -47,11 +47,11 @@ const Contact = () => {
             >
               <WhatsAppIcon />
             </a>
-          </div>
-          <div data-aos="fade-right" className="contact__info">
+          </div> */}
+          {/* <div data-aos="fade-right" className="contact__info">
             <p>+234 08136080403</p>
             <p>austinpaul606@gmail.com</p>
-          </div>
+          </div> */}
           <div data-aos="fade-right" className="contact__image">
             <img src="./images/contact.svg" alt="" />
           </div>

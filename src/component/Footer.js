@@ -4,7 +4,7 @@ const Footer = () => {
   const year = d.getFullYear();
   return (
     <div className="footer">
-      <p>copyright © Lawal Austin, {year}</p>
+      <p>copyright © Tiamiyu Korede , {year}</p>
     </div>
   );
 };
