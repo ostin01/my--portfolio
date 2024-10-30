@@ -1,85 +1,87 @@
 .hero__container {
-    margin: 40px;
+  /* margin: 40px; */
 }
 
 .hero__info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
 }
 
 .hero__image {
-    width: 500px;
+  width: 500px;
 }
 
 .hero__image img {
-    margin-top: 30px;
-    width: 100%;
-    object-fit: cover;
+  margin-top: 30px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .about__hero {
-    max-width: 600px;
+  max-width: 600px;
 }
 
 .about__hero h4 {
-    font-weight: 400;
-    font-size: 20px;
-    margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 5px;
 }
 
 .about__hero h1 {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .about__hero p {
-    font-weight: 100;
-    line-height: 25px;
-    color: black;
-    font-size: 14px;
-    margin-bottom: 20px;
-    max-width: 80%;
-    letter-spacing: 1px;
+  font-weight: 100;
+  line-height: 25px;
+  color: black;
+  font-size: 14px;
+  margin-bottom: 20px;
+  max-width: 80%;
+  letter-spacing: 1px;
 }
 
 .download__button {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    align-items: center;
-    width: fit-content;
-    padding: 10px 20px;
-    background: #000;
-    outline: none;
-    border: none;
-    color: #fff;
-    transition: .4s;
-    text-transform: uppercase;
-    font-size: 13px;
-    border-radius: 4px;
-    box-shadow: 12px 13px 30px rgb(0 0 0 / 9%);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  align-items: center;
+  width: fit-content;
+  padding: 10px 20px;
+  background: #000;
+  outline: none;
+  border: none;
+  color: #fff;
+  transition: 0.4s;
+  text-transform: uppercase;
+  font-size: 13px;
+  border-radius: 4px;
+  box-shadow: 12px 13px 30px rgb(0 0 0 / 9%);
 }
 
 .download__button:hover {
-    color: #000;
-    background-color: #F9B006;
+  color: #000;
+  background-color: #f9b006;
 }
 
-@media (max-width:1095px) {
-    .hero__info {
-        flex-direction: column;
-    }
+@media (max-width: 1095px) {
+  .hero__info {
+    flex-direction: column;
+  }
 }
 
-@media (max-width:800px) {
-    .hero__image {
-        max-width: 100%;
-    }
-
-    .about__hero p {
-        text-align: center;
-        max-width: 100%;
-    }
+@media (max-width: 800px) {
+  .hero__image {
+    max-width: 100%;
+  }
+  .about__hero h1 {
+    text-align: center;
+  }
+  .about__hero p {
+    text-align: center;
+    max-width: 100%;
+  }
 }

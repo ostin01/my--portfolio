@@ -1,14 +1,13 @@
 * {
   margin: 0;
+  padding: 0;
   scroll-behavior: smooth;
-
 }
 
 body {
   color: black;
   font-family: "Poppins", sans-serif;
 }
-
 
 a,
 ul {
@@ -21,12 +20,12 @@ ul {
 }
 
 #light {
-  transition: .6s;
+  transition: 0.6s;
 }
 
 #dark {
   background-color: black;
-  transition: .6s;
+  transition: 0.6s;
   color: gray;
 }
 
@@ -71,7 +70,7 @@ ul {
   background: #f9b006;
   color: #000;
   box-shadow: 6px 8px 20px rgb(0 0 0 / 10%);
-  transition: .4s;
+  transition: 0.4s;
   border-radius: 4px;
 }
 

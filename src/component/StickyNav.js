@@ -14,7 +14,7 @@ const StickyNav = () => {
         <img className="logo" src="./images/logo.jpg" width={40} alt="" />
       </a>
       <div className="logos">
-        <a href="https://github.com/Fitzstiles" target="blank">
+        <a href="https://github.com/ostin01" target="blank">
           <GitHubIcon />
         </a>
 

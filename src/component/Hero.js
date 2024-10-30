@@ -1,5 +1,5 @@
 import "./hero.css";
-// import DownloadIcon from "@mui/icons-material/Download";
+import DownloadIcon from "@mui/icons-material/Download";
 
 const Hero = () => {
   return (
@@ -12,19 +12,21 @@ const Hero = () => {
           <h4>Hi! I'm</h4>
           <h1>Lawal Austin</h1>
           <p>
-            {/* I am an enthusiatic Frontend Developer with a keen attention to
-            details and excellent organisation skills with hands on experience
-            building web apps using React js and Next Js . */}
-            I am a frontend developer with hands on experience building web apps
-            using React js and Next Js
+            I am a passionate frontend web and mobile app developer with
+            expertise in React js, Next.js and React Native. With a strong
+            foundation in reactive programming, I create responsive,
+            high-performance applications that provide seamless user
+            experiences. My skills in both web and mobile development allow me
+            to deliver versatile and efficient solutions, ensuring optimal
+            functionality across platforms.
           </p>
-          {/* <a
+          <a
             className="download__button"
             href="./images/01 Austin.pdf"
             download
           >
             Download Resume <DownloadIcon />
-          </a> */}
+          </a>
         </div>
       </div>
     </div>

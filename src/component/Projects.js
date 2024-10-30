@@ -3,18 +3,20 @@ import LanguageIcon from "@mui/icons-material/Language";
 const Projects = () => {
   return (
     <div data-aos="fade-up" className="projects__container" id="projects">
-      <h1 data-aos="fade-right">Featured Projects</h1>
+      <h1 data-aos="fade-right">Things I've worked on</h1>
       <div className="right__items">
         <div className="project__details">
-          <h2>SNEAKYLEGS</h2>
+          <h2>Wayg</h2>
           <p>Sneakylegs is an E-commerce website</p>
 
           <div className="stackss">
             <h6>Next js</h6>
-            <h6>JavaScript</h6>
-            <h6>Firebase</h6>
+            <h6>TypeScript</h6>
+            <h6>Tanstack Query</h6>
+            <h6>Tailwind css</h6>
+            <h6>Mantine</h6>
           </div>
-          <div className="designer">
+          {/* <div className="designer">
             <p>Design by twitter: @Priscillia</p>
             <div className="project__link">
               <a
@@ -24,36 +26,41 @@ const Projects = () => {
                 Click to view Design
               </a>
             </div>
-          </div>
+          </div> */}
           <div className="project__link">
-            <a href="https://sneakylegs.vercel.app/" target="blank">
+            <a href="https://getwayg.com/" target="blank">
               view live project
               <LanguageIcon />
             </a>
           </div>
         </div>
         <div data-aos="fade-left" className="image">
-          <img src="./images/sneakylegss.PNG" alt="" />
+          <img src="./images/wayg.png" alt="" />
         </div>
       </div>
       <div className="left__items">
         <div className="project__details">
-          <h2>All Nations</h2>
-          <p>This is a website for an NGO</p>
+          <h2>Volomn</h2>
+          <p>
+            Volomn seeks to provide Nigerian techies as a service to both
+            foreign and local clients, clients can hire either some of, or all
+            of the following roles through Volomn: Product managers, software
+            engineers, designers, data analysts, etc.
+          </p>
 
           <div className="stackss">
-            <h6>React js</h6>
-            <h6>JavaScript</h6>
+            <h6>Next js</h6>
+            <h6>Tailwind</h6>
           </div>
           <div className="project__link">
-            <a href="https://ancypif.vercel.app/" target="blank">
+            <a href="https://volomn.com/" target="blank">
               view live project
               <LanguageIcon />
             </a>
           </div>
         </div>
         <div data-aos="fade-right" className="image">
-          <img src="./images/AN.png" alt="" />
+          <img src="./images/volomn.png" alt="" />
         </div>
       </div>
       <div className="right__items">
@@ -111,29 +118,6 @@ const Projects = () => {
         </div>
         <div data-aos="fade-right" className="image">
           <img src="./images/applee.PNG" alt="" />
-        </div>
-      </div>
-      <div className="right__items">
-        <div className="project__details">
-          <h2>CRAPPO</h2>
-          <p>
-            CRAPPO Is a crypto currency landing page.Coingecko api is used to
-            get live cryptocurrency prices
-          </p>
-          <div className="stackss">
-            <h6>React</h6>
-            <h6>JavaScript</h6>
-            <h6>Coingecko API</h6>
-          </div>
-          <div className="project__link">
-            <a href="https://coinverse-eta.vercel.app/" target="blank">
-              view live project
-              <LanguageIcon />
-            </a>
-          </div>
-        </div>
-        <div data-aos="fade-left" className="image">
-          <img src="./images/crypt.PNG" alt="" />
         </div>
       </div>
     </div>

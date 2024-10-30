@@ -4,7 +4,7 @@ const Technologies = () => {
     <div className="technologies__container" id="navigation">
       <h1 data-aos="fade-right">Tech Stack</h1>
       <div data-aos="fade-left" className="tech__icons">
-        <div className="first__row">
+        {/* <div className="first__row">
           <div className="image__container">
             <img
               src="https://www.ujudebug.com/wp-content/uploads/2022/07/html-logo-transparent.png"
@@ -23,8 +23,8 @@ const Technologies = () => {
               alt=""
             />
           </div>
-        </div>
-        <div className="second__row">
+        </div> */}
+        {/* <div className="second__row">
           <div className="image__container">
             <img
               src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png"
@@ -46,8 +46,8 @@ const Technologies = () => {
               style={{ borderRadius: 30 }}
             />
           </div>
-        </div>
-        <div className="third__row">
+        </div> */}
+        {/* <div className="third__row">
           <div className="image__container">
             <img
               src="https://softprodigy.com/wp-content/uploads/2019/06/nodejs-logo.png"
@@ -71,7 +71,7 @@ const Technologies = () => {
               }}
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
