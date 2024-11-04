@@ -3,7 +3,7 @@ import "./projects.css";
 const Projects = () => {
   return (
     <div data-aos="fade-up" className="projects__container" id="projects">
-      <h1 data-aos="fade-right">Things I've worked on</h1>
+      <h1 data-aos="fade-right">Projects I've worked on</h1>
       <div className="project__details">
         <div>
           <h1>Wayg</h1>
