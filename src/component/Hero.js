@@ -12,13 +12,11 @@ const Hero = () => {
           <h4>Hi ! I am</h4>
           <h1>Lawal Austin</h1>
           <p>
-            I am a passionate frontend web and mobile app developer with
-            expertise in React js, Next.js and React Native. With a strong
-            foundation in reactive programming, I create responsive,
-            high-performance applications that provide seamless user
-            experiences. My skills in both web and mobile development allow me
-            to deliver versatile and efficient solutions, ensuring optimal
-            functionality across platforms.
+            Experienced frontend developer with expertise in React js, Next.js,
+            JavaScript and Typescript. I create responsive, high-performance
+            applications that provide seamless user experiences. My skills in
+            web technologies allow me to deliver effective and efficient
+            solutions,ensuring optimal functionality across platforms.
           </p>
           <a className="button__styles" href="./images/01Austin.pdf" download>
             Download Resume <DownloadIcon />
