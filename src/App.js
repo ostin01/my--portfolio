@@ -8,16 +8,14 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Technologies from "./component/Technologies";
-import { useStateValue } from "./globalStore/StateContext";
 
 function App() {
-  const { theme } = useStateValue();
   useEffect(() => {
     AOS.init();
     AOS.refresh();
   }, []);
   return (
-    <div className="App" id={theme}>
+    <div className="App">
       <StickyNav />
       <Hero />
       <Projects />
@@ -25,9 +23,6 @@ function App() {
       <Contact />
       <Navigation />
       <Footer />
-      {/* <div class="container">
-        <h1>Hello world</h1>
-      </div> */}
     </div>
   );
 }

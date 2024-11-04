@@ -9,7 +9,7 @@ const Hero = () => {
           <img src="./images/hero.svg" alt="" />
         </div>
         <div className="about__hero">
-          <h4>Hi! I'm</h4>
+          <h4>Hi ! I am</h4>
           <h1>Lawal Austin</h1>
           <p>
             I am a passionate frontend web and mobile app developer with
@@ -20,11 +20,7 @@ const Hero = () => {
             to deliver versatile and efficient solutions, ensuring optimal
             functionality across platforms.
           </p>
-          <a
-            className="download__button"
-            href="./images/01 Austin.pdf"
-            download
-          >
+          <a className="button__styles" href="./images/01Austin.pdf" download>
             Download Resume <DownloadIcon />
           </a>
         </div>

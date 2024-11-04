@@ -1,43 +1,23 @@
 .technologies__container {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../public/images/bg.jpg') center/cover no-repeat fixed;
-    padding: 50px 0;
-    overflow: hidden;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../public/images/bg.jpg") center/cover no-repeat fixed;
+  padding: 50px 0;
+  overflow: hidden;
 }
 
 .technologies__container h1 {
-    color: white;
-    font-weight: 200;
-    text-align: center;
+  color: white;
+  font-weight: 200;
+  text-align: center;
 }
 
-.tech__icons {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 500px;
-    margin: auto;
-    padding-bottom: 50px;
-}
-
-.image__container {
-    width: 60px;
-    height: 60px;
-    margin: 20px 0;
-}
-
-.image__container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.first__row,
-.second__row,
-.third__row {
-    display: flex;
-    flex-direction: column;
-}
-
-.tech__icons {
-    padding: 20px;
+.tech-stack {
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 12px auto;
+  gap: 16px;
+  padding: 20px;
 }

@@ -1,13 +1,8 @@
 import "./sticky.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import LightModeIcon from "@mui/icons-material/LightMode";
-import DarkModeIcon from "@mui/icons-material/DarkMode";
-import { useStateValue } from "../globalStore/StateContext";
-import { useState } from "react";
+
 const StickyNav = () => {
-  const { toggleTheme } = useStateValue();
-  const [toggle, setToggle] = useState(false);
   return (
     <div className="navbar__container">
       <a href="/">
@@ -25,11 +20,6 @@ const StickyNav = () => {
         >
           <WhatsAppIcon />
         </a>
-        <div onClick={() => setToggle(!toggle)} style={{ cursor: "pointer" }}>
-          <div onClick={toggleTheme}>
-            {toggle ? <DarkModeIcon /> : <LightModeIcon />}
-          </div>
-        </div>
       </div>
     </div>
   );

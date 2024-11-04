@@ -37,7 +37,7 @@ const Contact = () => {
         <div data-aos="fade-right" className="contact__container" id="contact">
           <h1>Get in touch</h1>
           <div data-aos="fade-right" className="contacts__icons">
-            <a href="https://github.com/Fitzstiles" target="blank">
+            <a href="https://github.com/ostin01" target="blank">
               <GitHubIcon />
             </a>
 

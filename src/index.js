@@ -2,14 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import { StateContextProvider } from "./globalStore/StateContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <StateContextProvider>
-      <App />
-    </StateContextProvider>
+    <App />
   </React.StrictMode>
 );
 
