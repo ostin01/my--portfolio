@@ -18,7 +18,11 @@ const Hero = () => {
             web technologies allow me to deliver effective and efficient
             solutions,ensuring optimal functionality across platforms.
           </p>
-          <a className="button__styles" href="./images/01Austin.pdf" download>
+          <a
+            className="button__styles"
+            href="./images/01Austin.pdf"
+            target="_blank"
+          >
             Download Resume <DownloadIcon />
           </a>
         </div>

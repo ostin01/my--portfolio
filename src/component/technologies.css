@@ -21,3 +21,20 @@
   gap: 16px;
   padding: 20px;
 }
+
+.technologies__styles {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.technoogies__images {
+  width: 50px;
+  height: 50px;
+}
+.technoogies__images > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10%;
+}
