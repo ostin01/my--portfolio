@@ -25,14 +25,8 @@
 
 .project__details p {
   margin: 20px 0;
-  color: #999;
   font-weight: 100;
-  /* font-size: 15px; */
 }
-
-/* .project__details div {
-  border-right: 1px solid #999;
-} */
 
 @media (max-width: 800px) {
   .project__details {
